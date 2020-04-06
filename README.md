@@ -1,5 +1,5 @@
 # TelegramWebCrawler
-A Webcrawler using using a Telegram Bot as an interface. Whenever new links are created on a website it sends notifications via the bot. (It also contains a type of auto login for ethz moodle websites.)
+A webcrawler using a Telegram Bot as an interface. Whenever new links are created on a website it sends notifications via the bot. (It also contains a type of auto login for ethz moodle websites.)
 
 Libraries used:
 - jsoup 1.13.1

@@ -1,5 +1,5 @@
 # TelegramWebCrawler
-A Webcrawler which notifies one over a telegram bot if new links were created on a website. (with some sort of auto login for ethz moodle websites)
+A webcrawler which notifies one over a telegram bot if new links were created on a website. (with some sort of auto login for ethz moodle websites)
 
 Libraris used:
 - jsoup 1.13.1

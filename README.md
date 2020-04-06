@@ -7,7 +7,7 @@ Libraries used:
 
 ## Setup
 1. You'll  need a Telegram bot which can be created with the @BotFather Telegram bot. This gives the **token** needed in the *ETHCrawler.java* file.
-2. Create a Telegram channel and add the your personal bot. Then make the bot an admin and allow it to send messages.
+2. Create a Telegram channel and add your personal bot. Then make the bot an admin and allow it to send messages.
 3. Add your Telegram channel name to the *ETHCrawler.java* file.
 4. Add all your urls to the *ETHCrawler.java* file.
 

@@ -15,9 +15,9 @@ import java.util.ArrayList;
 public class EthCrawler {
     public static void main(String[] args) {
         //add users to dobby chat bot
-        ArrayList<String> chatIds = new ArrayList<String>();
+        ArrayList<String> chatIds = new ArrayList<>();
         // make array of all urls
-        ArrayList<UrlName> urls = new ArrayList<UrlName>();
+        ArrayList<UrlName> urls = new ArrayList<>();
         // define urls here
 
         ///////////////////////////////////////////////////////////////////////////
@@ -87,10 +87,10 @@ public class EthCrawler {
             e1.printStackTrace();
             //trying to create storage files
             try {
-                st.creatStorage();
+                st.createStorage();
             } catch (IOException e) {
                 e.printStackTrace();
-                System.out.println("couldn't creat storage file");
+                System.out.println("couldn't create storage file");
             }
         } catch (Exception e) {
             e.printStackTrace();

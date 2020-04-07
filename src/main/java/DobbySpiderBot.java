@@ -1,8 +1,5 @@
-import java.io.BufferedInputStream;
 import java.io.IOException;
-import java.io.InputStream;
 import java.net.URL;
-import java.net.URLConnection;
 import java.util.ArrayList;
 import java.util.concurrent.TimeUnit;
 
@@ -32,12 +29,9 @@ public class DobbySpiderBot {
 
             try {
                 URL url = new URL(urlString);
-                URLConnection conn = url.openConnection();
-                InputStream is = new BufferedInputStream(conn.getInputStream());
+                url.openStream();
                 TimeUnit.SECONDS.sleep(4); //delay because of telegram message limits
-            } catch (IOException e) {
-                e.printStackTrace();
-            } catch (InterruptedException e) {
+            } catch (IOException | InterruptedException e) {
                 e.printStackTrace();
             }
         }
@@ -50,8 +44,7 @@ public class DobbySpiderBot {
 
         try {
             URL url = new URL(urlString);
-            URLConnection conn = url.openConnection();
-            InputStream is = new BufferedInputStream(conn.getInputStream());
+            url.openStream();
         } catch (IOException e) {
             e.printStackTrace();
         }

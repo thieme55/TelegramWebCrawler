@@ -21,7 +21,7 @@ public class Storage {
      *
      * @throws IOException
      */
-    public void creatStorage() throws IOException {
+    public void createStorage() throws IOException {
         ObjectOutputStream out = new ObjectOutputStream(new FileOutputStream(location));
         out.close();
     }

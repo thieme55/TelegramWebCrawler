@@ -51,8 +51,6 @@ public class LogInBot {
             webClient.close();
             return Jsoup.parse(htmlPage.asXml());
 
-        } catch (ElementNotFoundException e) {
-            e.printStackTrace();
         } catch (Exception e) {
             e.printStackTrace();
         }

@@ -12,10 +12,10 @@ It also supports ETHZ Moodle websites that require logging in.
     This **token** is needed in the [ETHCrawler.java] file.
 2. Create a Telegram channel, add your personal bot, make the bot an admin, and allow it to send messages.
 3. Add your Telegram channel name to the [ETHCrawler.java] file.
-4. Add the urls you wish to scrape to the [ETHCrawler.java] file.
+4. Add the URLs you wish to scrape to the [ETHCrawler.java] file.
 
 ### Moodle setup (optional)
-5. If you want to use Moodle websites which require logging in, provide the credentials in the [ETHCrawler.java] file.
+5. If you want to use Moodle websites that require logging in, provide the credentials in the [ETHCrawler.java] file.
 
 ## Docker
 It's possible to run the project using [Docker](https://www.docker.com/). 
